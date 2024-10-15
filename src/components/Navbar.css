@@ -1,0 +1,129 @@
+/* Navbar styles */
+.navbar {
+    background-color: #343a40; /* Dark background */
+    padding: 20px 50px; /* Tăng padding để tăng chiều cao thanh navbar */
+    height: 80px; /* Tăng chiều cao của navbar */
+    display: flex;
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    justify-content: space-between; /* Tạo khoảng cách giữa các phần tử trong navbar */
+}
+
+.navbar-brand {
+    color: #ffffff !important; /* White color for brand */
+    font-weight: bold; /* Bold text */
+    font-size: 1.5rem; /* Tăng kích thước chữ */
+    margin-right: 50px; /* Space after brand */
+    margin-left: 20px; /* Tạo khoảng cách bên trái chữ "Pizza House" với mép màn hình */
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end; /* Đẩy các item bên phải (nút Login) ra xa chữ Pizza House */
+    margin-right: 20px; /* Cách nút Login một khoảng với mép màn hình bên phải */
+}
+
+.nav-link {
+    color: #ffffff !important; /* White color for nav links */
+    margin-right: 30px; /* Tăng khoảng cách giữa các liên kết */
+    font-size: 1.2rem; /* Tăng kích thước chữ cho các link */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+.nav-link:hover {
+    color: #007bff !important; /* Change color on hover */
+}
+
+.btn {
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Tăng padding cho button */
+    font-size: 1rem; /* Tăng font size cho button */
+    margin-left: 20px; /* Space between buttons */
+}
+
+/* Tùy chỉnh nút outline-info */
+.btn-outline-info {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-info:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Tùy chỉnh nút outline-primary */
+.btn-outline-primary {
+    color: #ffffff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Tùy chỉnh nút outline-danger */
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545; /* Red background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Modal styles */
+.modal-header {
+    background-color: #343a40; /* Dark header for modal */
+    color: #ffffff; /* White color for text */
+}
+
+.modal-title {
+    font-weight: bold; /* Bold title */
+    font-size: 1.5rem; /* Tăng kích thước tiêu đề trong modal */
+}
+
+.modal-footer {
+    background-color: #f1f1f1; /* Light footer for modal */
+    display: flex;
+    justify-content: space-between; /* Căn đều các nút trong footer */
+}
+
+.modal-footer .btn {
+    width: 100%; /* Đặt nút Login full width */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Login button in modal */
+.btn-login {
+    display: block;
+    width: 100%; /* Đặt nút Login chiếm toàn bộ chiều ngang trong modal */
+    text-align: center;
+    margin-top: 15px; /* Thêm khoảng cách bên trên nút */
+}
+
+.alert {
+    margin-bottom: 20px; /* Space below alert */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Tăng font size cho input */
+}
+
+/* Table styles */
+.table {
+    background-color: #ffffff; /* White background for table */
+    border-radius: 5px; /* Rounded corners for table */
+    overflow: hidden; /* To apply border radius */
+    font-size: 1rem; /* Tăng font size cho bảng */
+}
+
+
+
+
